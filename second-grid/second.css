@@ -6,7 +6,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 350px;
 }
 .wrapper {
     padding: 16px;
@@ -29,6 +29,23 @@ img {
     display: grid;
     grid-template-columns: 1fr ;
     gap: 10px;
+}
+.item-on-left, .item-on-right {
+    position: relative;
+}
+.rating-content {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+}
+.star-rating-container {
+    background-color: white ;
+    border-radius: 10px;
+    width: 50px;
+}
+.star-rating-container p {
+    color: gold ;
+    margin: 0 auto;
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {
