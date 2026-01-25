@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="./form.css" >
 </head>
 <body>
-    
+    <div class="container">
+    <!-- Left Image Section -->
+    <div class="image-section">
+      <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Collection Image">
+      <span class="tag">#Collection 2018</span>
+    </div>
+
+    <!-- Right Form Section -->
+    <div class="form-section">
+      <h2>REGISTRATION FORM</h2>
+
+      <form>
+        <div class="row">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email Address">
+
+        <select>
+          <option>Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+
+        <button type="submit">Register →</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
