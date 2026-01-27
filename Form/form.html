@@ -1,45 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
-    <link rel="stylesheet" href="./form.css" >
-</head>
-<body>
+    <link rel="stylesheet" href="./form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-    <!-- Left Image Section -->
-    <div class="image-section">
-      <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Collection Image">
-      <span class="tag">#Collection 2018</span>
-    </div>
+      <div class="content-container">
+        <div class="wrapper">
+          <!-- Left Image Section -->
+          <div class="image-section">
+            <img src="../Assets/image/form.png" alt="Collection Image" />
+            <span class="tag">#Collection 2018</span>
+          </div>
 
-    <!-- Right Form Section -->
-    <div class="form-section">
-      <h2>REGISTRATION FORM</h2>
+          <!-- Right Form Section -->
+          <div class="form-section">
+            <h2>REGISTRATION FORM</h2>
 
-      <form>
-        <div class="row">
-          <input type="text" placeholder="First Name">
-          <input type="text" placeholder="Last Name">
+            <form>
+              <div class="row">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+              </div>
+
+              <input type="text" placeholder="Username" />
+              <input type="email" placeholder="Email Address" />
+
+              <select>
+                <option class="gender">Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
+
+            </form>
+            <div class="button-section">
+              <button type="submit">Register →</button>
+
+            </div>
+          </div>
         </div>
-
-        <input type="text" placeholder="Username">
-        <input type="email" placeholder="Email Address">
-
-        <select>
-          <option>Gender</option>
-          <option>Male</option>
-          <option>Female</option>
-          <option>Other</option>
-        </select>
-
-        <input type="password" placeholder="Password">
-        <input type="password" placeholder="Confirm Password">
-
-        <button type="submit">Register →</button>
-      </form>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
