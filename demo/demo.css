@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 500px;
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    column-gap: 6px;
+    row-gap: 6px;
+}
+
+.side-one {
+    background-color: aqua;
+    grid-column: 1;
+    grid-row: span 2;
+}
+.side-two {
+    background-color: black;
+}
+.side-three {
+    background-color: blue;
+    grid-row: span 2;
+}
+.side-four {
+    background-color: brown;
+    grid-row: span 2;
+}
+.side-five {
+    background-color: green;
+}
+.side-six {
+    background-color: burlywood;
+}
