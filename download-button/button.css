@@ -1,0 +1,74 @@
+.store-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.store-btn .icon {
+  font-size: 24px;
+}
+
+.store-btn .text small {
+  display: block;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.store-btn .text strong {
+  font-size: 14px;
+}
+
+/* Google Play */
+.store-btn.google {
+  background: #000;
+  color: #fff;
+}
+
+.store-btn.google:hover {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* App Store */
+.store-btn.apple {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.store-btn.apple:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Windows Store */
+.store-btn.windows {
+  background: #000;
+  color: #fff;
+}
+
+.store-btn.windows:hover {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
