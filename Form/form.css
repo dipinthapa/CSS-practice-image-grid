@@ -83,9 +83,23 @@ input:focus,
 select:focus {
   border-color: #000;
 }
-.gender {
-  color: #b0b0b0;
+.input-with-icons {
+  position: relative;
 }
+.input-with-icons i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 14px;
+}
+select {
+  appearance: none;
+  cursor: pointer;
+  color: #666;
+}
+
 .button-section {
   display: flex;
   align-items: center;

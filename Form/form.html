@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -31,24 +35,37 @@
                 <input type="text" placeholder="First Name" />
                 <input type="text" placeholder="Last Name" />
               </div>
-
-              <input type="text" placeholder="Username" />
-              <input type="email" placeholder="Email Address" />
-
-              <select>
-                <option class="gender">Gender</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-              </select>
-
-              <input type="password" placeholder="Password" />
-              <input type="password" placeholder="Confirm Password" />
-
+              <div class="input-with-icons">
+                <input type="text" placeholder="Username" />
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="input-with-icons">
+                <input type="email" placeholder="Email Address" /><i
+                  class="fa-solid fa-envelope"
+                ></i>
+              </div>
+              <div class="input-with-icons">
+                <select required>
+                  <option value="" disabled selected>Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Other</option>
+                </select>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+              <div class="input-with-icons">
+                <input type="password" placeholder="Password" /><i
+                  class="fa-solid fa-lock"
+                ></i>
+              </div>
+              <div class="input-with-icons">
+                <input type="password" placeholder="Confirm Password" /><i
+                  class="fa-solid fa-lock"
+                ></i>
+              </div>
             </form>
             <div class="button-section">
               <button type="submit">Register →</button>
-
             </div>
           </div>
         </div>
