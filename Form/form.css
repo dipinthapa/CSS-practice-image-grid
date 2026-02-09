@@ -12,16 +12,13 @@ body {
   margin: 20px auto;
 }
 .content-container {
+  margin: 0 auto;
   max-width: 350px;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* width: 900px; */
-}
+
 
 /* Image Section */
 .image-section {
@@ -132,6 +129,11 @@ button:hover {
   }
 }
 @media (min-width: 1024px) {
+  .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* width: 900px; */
+}
   .container {
     max-width: 800px;
   }
