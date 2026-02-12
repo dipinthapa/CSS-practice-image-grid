@@ -37,16 +37,18 @@ img {
 .items-on-right {
   position: relative;
 }
+ 
 .rating-content {
   position: absolute;
+  top: 0;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 .star-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
-  border-radius: 16px;
+  border-radius: 14px;
   width: 50px;
   padding: 2px;
 }
@@ -54,17 +56,19 @@ img {
   color: #e36d24;
   margin: 0 auto;
 }
+
 .city-landmark {
     position: absolute;
-    bottom: -182px;
+    padding: 10px;
+    bottom: 0px;
 }
-.bottom{
-  position: absolute;
-  bottom: -432px;
-}
+
 .city-landmark h2,
 p {
-  color: rgb(248, 248, 248);
+  color: rgb(255, 255, 255);
+}
+.rotate {
+  transform: scaleX(-1);
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {
